@@ -8,7 +8,8 @@ object RogueBuild extends Build {
   lazy val defaultSettings: Seq[Setting[_]] = Seq(
     version := "2.2.1",
     organization := "com.foursquare",
-    crossScalaVersions := Seq("2.9.1", "2.9.2", "2.10.2", "2.9.0-1", "2.9.0"),
+    scalaVersion := "2.11.2",
+    crossScalaVersions := Seq("2.9.1", "2.9.2", "2.10.2", "2.9.0-1", "2.9.0", "2.11.2"),
     publishMavenStyle := true,
     publishArtifact in Test := false,
     pomIncludeRepository := { _ => false },

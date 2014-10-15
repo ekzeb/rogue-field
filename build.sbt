@@ -1,4 +1,4 @@
-Seq(RogueBuild.defaultSettings: _*)
+scalaVersion := "2.11.2"
 
 name := "rogue-field"
 
